@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {  
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    accent-color: #0df754;
+}
+
+.box {
+    padding-top: 20vh;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px;
+}
+
+.form {
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 100px #0e032f
+    -2px -2px 100px #0e0222;
+    backdrop-filter: blur(3px);
+}
+
+h3 {
+    text-align: center;
+    padding: 2rem 1rem;
+    color: #08fd14;
+    letter-spacing: 2px;
+}
+
+.username,
+.password {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 50px;
+    align-items: center;
+    margin: 0 2.5rem 1rem 2.5rem;
+    outline: none;
+    border-style: none;
+    border: 1px solid #060706;
+}
+
+input::placeholder {
+    color: #08fd10fe;
+}
+
+p {
+    color: #04f420;
+}
+
+.icon {
+    padding-right: 0.5rem;
+    color: #3ef501;
+}
+
+input {
+    padding: 0.75rem 1.5rem;
+    outline: none;
+    border-style: none;
+    background-color: transparent;
+    color: #ddd;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem;
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox {
+    outline: none;
+    border-style: none;
+    margin-right: 0.25rem;
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #06f722;
+    transition: all 0.3s;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-box a {
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    outline: none;
+    border-style: none;
+    width: 75%;
+    cursor: pointer;
+    transition: all 0.5s;
+    background-color: #fff;
+    text-align: center;
+    color: #5f3dc4;
+}
+
+.btn-box a:hover {
+    opacity: 0.8;
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+    font-style: 0.75rem;
+    margin-top: 4rem;
+}
